@@ -1,0 +1,35 @@
+{
+    "name": "@django-vite/vite-plugin",
+    "version": "1.0.0",
+    "description": "Provide out-of-the-box configuration for django-vite hot reloading.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "dev": "vite",
+        "build:vite": "vite build",
+        "build:ts": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.5.4",
+        "glob": "^11.0.0",
+        "path": "^0.12.7",
+        "typescript": "^5.5.4",
+        "vite": "^5.4.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/django-vite-hmr/vite-plugin.git"
+    },
+    "keywords": [
+        "django-vite",
+        "vite-hmr",
+        "django-hot-reload"
+    ],
+    "author": "Sachin Acharya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/django-vite-hmr/vite-plugin/issues"
+    },
+    "homepage": "https://github.com/django-vite-hmr/vite-plugin#readme",
+    "private": false,
+    "type": "module"
+}
